@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0px;
+padding: 0px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+}
+.head-first{
+    background-size: 100%;
+    z-index: 3;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    background-color: rgba(82, 78, 78);
+    z-index: 1;
+    color: white;
+    
+}
+.conta-right-link{
+    display: flex;
+}
+.conta-right-link-icon{
+margin-right: 40px;    
+}
+.image{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+}
+.head-two{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: rgb(182, 174, 174,0.5);
+
+}
+.head-two-list{
+    display: flex;
+    list-style-type: none;
+}
+.list-items{
+    margin-right: 40px;
+    cursor: pointer;   
+}
+.head-middle-h2{
+    color: rgb(233, 204, 204,0.9);
+    font-weight: lighter;
+    font-size: 40px;
+
+}
+.head-middle{
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+    text-shadow: 0px 0px 10px rgb(2, 255, 2);
+
+}
+.head-middle:hover{
+    text-shadow: 0px 0px 10px rgb(11, 14, 11);
+}
+.head-middle-h3{
+    color: rgb(233, 204, 204,0.9);
+    cursor: pointer;
+    font-size: 40px;
+    
+
+}
+.head-middle-h3-link{
+    background-color: rgb(235, 12, 12);
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 300%;
+    height: 50px;
+    width: 140px;
+    margin-top: 80px;
+}
+.hero{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30%;
+}
+.hero-playlist{
+    margin-top: 50px;
+}
+.hero-row{
+    width: 75%;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-right-list-ul{
+    list-style: none;
+}
+.hero-right-list-ul-list{
+    margin-bottom: 10px;
+    margin: 0, auto;
+    background-color: rgb(151, 105, 105);
+    width: 350px;
+    border: 1px solid rgb(27, 25, 25);
+    height: 100%;
+}
+.hero-right-list-ul-list :hover{
+background-color: rgb(255, 116, 116);
+}
+
